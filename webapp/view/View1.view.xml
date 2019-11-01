@@ -1,0 +1,19 @@
+<mvc:View controllerName="demo.zday8.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form">
+	<Shell id="shell">
+		<App id="app">
+			
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<f:SimpleForm editable="true">
+						<Label id="txt1" text="City"></Label>
+						<Input id="id1" showValueHelp="true" valueHelpRequest="onValueHelpRequested" ></Input>
+					<!--	<Label id="txt2" text="Country"></Label>
+						<Input id="id2" showValueHelp="true" valueHelpRequest="onValueHelp"></Input>-->
+						</f:SimpleForm>
+					</content>
+				</Page>
+		
+		</App>
+	</Shell>
+</mvc:View>
